@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirea | Web Developer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #60a5fa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 8%;
+            background: white;
+        }
+
+        .hero-text {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 60px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .about {
+            background: #eef2ff;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            background: #111827;
+            color: white;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Chirea</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Chirea</span></h1>
+
+        <p>
+            An aspiring web developer passionate about technology,
+            creativity and building useful digital solutions.
+        </p>
+
+        <a href="#projects" class="button">View My Work</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Bachelor of Education Arts student with a growing interest
+        in web development and technology. I enjoy learning new digital
+        skills and using technology to solve everyday problems.
+        I have experience working with computers, Microsoft Office,
+        data entry, typing, document preparation and printing services.
+        I am currently developing my skills in HTML, CSS and JavaScript
+        and looking forward to growing as a web developer.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Microsoft Word</div>
+        <div class="skill">Microsoft Excel</div>
+        <div class="skill">Google Workspace</div>
+        <div class="skill">Data Entry</div>
+        <div class="skill">Typing</div>
+        <div class="skill">Canva</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                A responsive personal portfolio website created using
+                HTML and CSS as part of my journey into web development.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Chirea. Built while learning web development.</p>
+</footer>
+
+</body>
+</html>
